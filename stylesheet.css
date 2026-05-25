@@ -1,0 +1,336 @@
+/*******************************/
+/*                             */
+/* The top part of the website */
+/*                             */
+/*******************************/
+/* The header of the website */
+header {
+
+    /* Idea from Gemini on how to space */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    position: sticky;
+    top: 0; /* Tells the header to stick exactly at the top edge of the screen */
+    z-index: 1000; /* Ensures the header stays ON TOP of the car images as you scroll */
+}
+
+/* Banner logo of the company */
+.logo {
+
+    display: flex;
+    text-align: left;
+
+}
+
+/* Navigation menu on the top */
+.navigation {
+
+    padding-left: auto;
+    padding-right: 290px;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    gap: 20px;
+
+    
+}
+
+
+.header_navigation {
+    
+    border-bottom: 1px solid #ea0100;
+}
+
+/* The navigation menu words */
+.navigation, li a{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.navigation, li a:hover {
+
+    color: #ea0100;
+
+}
+
+/* User icon logo */
+.user_icon {
+
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    padding-right: 20px;
+
+}
+
+/* To remove the default spacing from around the page */
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+
+}
+
+/**********************************/
+/*                                */
+/* The bottom part of the website */
+/*                                */
+/**********************************/
+/* Black Divider Bar Styling */
+.black_bar {
+    background-color: #000000; /* Pure black */
+    height: 100px; /* Change this number to make the bar thicker or thinner */
+    width: 100%; /* Ensures it stretches all the way across the page */
+    margin-top: 40px; /* Space above the bar */
+    margin-bottom: 20px; /* Space below the bar */
+}
+
+/* Footer Styling (The Black Bar) */
+footer {
+    background-color: #000000; /* Makes the entire footer section black */
+    color: #ffffff; /* Turns the disclaimer text white for contrast */
+    text-align: center; /* Centers the text nicely */
+    padding: 30px 20px; /* Adds space inside the black box so the text doesn't touch the edges */
+    margin-top: 50px; /* Adds space between the Test Drive section and the footer */
+    font-size: 14px; /* Makes the disclaimer text appropriately small */
+}
+
+.footer p {
+    margin: 0; /* Removes default paragraph spacing to keep the bar symmetrical */
+    line-height: 1.5; /* Makes the text easier to read */
+}
+
+/**********************************/
+/*                                */
+/* The main page of the website   */
+/*                                */
+/**********************************/
+.adjustable_images {
+
+    width: 100%;
+    height: auto; 
+
+}
+
+/* The main page promotional images   */
+.adjust_promotion_images {
+
+    width: 80%;
+    height: 50%;
+
+}
+
+.promotional_images {
+
+    padding-top: 50px; /* Might change the padding number */
+
+}
+
+div.promotional_images {
+
+    overflow:auto;
+    white-space: nowrap;
+    padding: 10px;
+
+}
+
+h2 {
+
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/* The main page test drive images    */
+h3 {
+
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.test_drive_images {
+
+    text-align: center;
+
+}
+
+/******************************************/
+/*                                        */
+/* The vehicles page test drive images    */
+/*                                        */
+/******************************************/
+/* For the vehicles page */
+
+/***************************************/
+/*                                     */
+/* The offer page test drive images    */
+/*                                     */
+/***************************************/
+/* For the offer page */
+
+/ */
+/******************************************/
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.team h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 50px 0px 100px 0px;  /*top right bottom left*/
+}
+
+.member-card {
+    display: flex;  
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: auto;
+    padding-right: 40px;
+    width: auto;
+    box-shadow: 10px 5px 18px grey;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.member-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 10%;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.member-info p {
+    margin: 5px 0;
+}
+
+.about-us_h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: auto
+}
+
+.mission {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+/********************************************/
+/*                                          */
+/* The contact us page test drive images    */
+/*                                          */
+/********************************************/
+.contact-us_header {
+
+    text-align: center;
+    padding: 60px 20px; /*top bottom, left right*/
+    background-color: black;
+    color: white;
+}
+
+.contact-us_header h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.contact-us_header p {
+    font-size: 20px;
+    color: #ccc;
+    margin: 0;
+}
+
+.address, .contact, .enquiry {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.address h2, .contact h3, .enquiry h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: black;
+    border: none;
+
+    /* This is to cancel the align and padding caused by the top global h2, h3 and h4 */
+    padding-top: 0;
+    text-align: left;
+}
+
+.contact-us_p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #444;
+}
+
+strong {
+    color: black;
+}
+
+.enquiry {
+    border-top: 1px solid #eee;
+}
+
+.enquiry a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.enquiry a:hover {
+    text-decoration: underline;
+}
+
+/***********************************************/
+/*                                             */
+/* The find a dealer page test drive images    */
+/*                                             */
+/***********************************************/
+/* For the find a dealer page */
+
+/*****************************************/
+/*                                       */
+/* The profile page test drive images    */
+/*                                       */
+/*****************************************/
+/* For the profile page */
