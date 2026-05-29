@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="THE BALLER CLUB">
+    <meta name="description" content="BALLER'S AUTOMOBILE, WE SELL THE FINEST'S CAR!">
+    <meta name="keywords" content="Baller Automobile, selling cars, automobile, car">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Feedback Form</title>
+</head>
+
+<body class="feedback_body">
+
+    <!-- Top part -->
+    <header>
+        <!-- Image -->
+        <a href="index.html">
+            <img src="images/baller.png" alt="BallerAuto" width="350" height="100" class="logo">
+        </a>
+        
+        <!-- Navigation -->
+        <nav>
+        <ul class="navigation">
+            <li><a href="vehicles.html">Vehicles</a></li>
+            <li><a href="offers.html">Offer</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="dealer.html">Find a Dealer</a></li>
+        </ul>    
+        </nav>
+            
+    </header>
+
+    <article>
+        <div class="feedback_header">
+            <h1>Feedback Form</h1>
+            <p>Have an issue you're facing? Send us a message and we'll get right back to you!</p>
+        </div>
+
+        <form class="feedback_form">
+            <fieldset class="fieldset_feedback">
+
+                <legend class="feedback_legend">Feedback</legend>
+
+                <label class="section-title"><b>Type of Feedback (select one)</b></label>
+                <label class="choice">
+                    <input type="radio" name="type" value="promotion">
+                    Promotions
+                </label>
+
+                <label class="choice">
+                    <input type="radio" name="type" value="product">
+                    Products
+                </label>
+
+                <label class="choice">
+                    <input type="radio" name="type" value="financing">
+                    Technical support
+                </label>
+
+                <label class="choice">
+                    <input type="radio" name="type" value="Others">
+                    Others
+                </label>
+
+                <div class="text-field">
+
+                    <div class="section-input">
+                        <label for="fullname"><b>Full Name</b></label>
+                        <input type="text" id="fullname" name="fullname" required="required">
+                    </div>
+
+                    <div class="section-input">
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" id="email" name="email" required="required">
+                    </div>
+
+                    <div class="section-input">
+                        <label for="phonenumber"><b>Phone Number</b></label>
+                        <input type="text" id="phonenumber" name="phonenumber" required="required">
+                    </div>
+
+                    <div class="section-input">
+                        <label for=""><b>City / Town</b></label>
+                        <input type="city/town" id="city" name="city" required="required">
+                    </div>
+
+                    <div class="section-input">
+                        <label for="message"><b>Feedback Details</b></label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us more about your feedback....."></textarea>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit"><b>Submit Feedback</b></button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </article>
+
+    <!-- Bottom part -->
+    <footer>
+        <!-- Need to include like some stuff, refer to websites for ideas -->
+        <!-- Disclaimer -->
+        <article class="Disclaimer">
+            <p>Disclaimer: This website is created for education and non-commercial use only. It is an assignment for completion of unit, DBI211 Fundamentals of Web Technology based on the Foundation (IT/Multimedia) course from Swinburne University of Technology Sarawak Campus.</p>
+            <p>&copy; <a href="about.html" class="footer_link">THE BALLER CLUB (Group 10)</a> | Last updated : 29/05/2026</p>
+        </article>
+    </footer>
+
+    <script src="Feedback.js"></script>
+
+</body>
+
+</html>

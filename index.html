@@ -1,12 +1,11 @@
 <!--
 Group Name: THE BALLER CLUB
 Date: 05/05/2026
-Validated:
+Last updated : 29/05/2026
 Description: DBI211 Assignment 2 Group Project. We sell cars here.
 -->
 
 <!DOCTYPE html>
-
 <html lang="en">
     
     <!-- Head -->
@@ -17,8 +16,7 @@ Description: DBI211 Assignment 2 Group Project. We sell cars here.
         <meta name="description" content="BALLER'S AUTOMOBILE, WE SELL THE FINEST'S CAR!">
         <meta name="keywords" content="Baller Automobile, selling cars, automobile, car">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /> <!-- Font Awesome Icons -->
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Main.js"></script>
     </head>
 
@@ -28,7 +26,7 @@ Description: DBI211 Assignment 2 Group Project. We sell cars here.
         <header>
             <!-- Image -->
             <a href="index.html">
-                <img src="images/baller.png" alt="BallerAuto" width="350" height="100" class="logo">
+                <img src="images/baller.png" alt="BallerAuto" class="logo">
             </a>
             
             <!-- Navigation -->
@@ -36,34 +34,38 @@ Description: DBI211 Assignment 2 Group Project. We sell cars here.
             <ul class="navigation">
                 <li><a href="vehicles.html">Vehicles</a></li>
                 <li><a href="offers.html">Offer</a></li>
-                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
                 <li><a href="dealer.html">Find a Dealer</a></li>
             </ul>    
             </nav>
                 
-            <i class="fas fa-user-alt user_icon"></i>
         </header>
 
-        <!-- The main stuff area thingy -->
-        <!-- The top images of cars -->
-        <!-- Make them automatic changing images -->
-        <div class="top_cars_images">
-            <img id="Images" src="images/main_page/Porsche_911.png" class="adjustable_images">
-        </div>
+        <article>
+            <!-- The main stuff area thingy -->
+            <!-- The top images of cars -->
+            <!-- Make them automatic changing images -->
+            <div class="top_cars_images">
+                <img id="Images" src="images/main_page/Porsche_911.png" class="adjustable_images">
+            </div>
 
-        <!-- Promotional Images -->
-        <h2>Promotion</h2>
-        <div class="promotional_images">
-            <img src="images/main_page/promotion/Toyota_promotion.png" alt="Toyota Promotional Image" class="adjust_promotion_images">
-            <img src="images/main_page/promotion/Honda_promotion.jpg" alt="Honda Promotional Image" class="adjust_promotion_images">
-        </div>
+            <!-- Promotional Images -->
+            <h2>Promotions happening now!</h2>
+            <div class="promotional_images">
+                <img src="images/main_page/promotion/Toyota_promotion.png" alt="Toyota Promotional Image" class="adjust_promotion_images">
+                <img src="images/main_page/promotion/Honda_promotion.jpg" alt="Honda Promotional Image" class="adjust_promotion_images">
+            </div>
 
-        <!-- Test Drive Image -->
-        <h3>Test Drive</h3>
-        <div class="test_drive_images">
-            <img src="images/main_page/test_drive/Test_drive.png" alt="Test Drive" class="adjust_test_drive_images">
-        </div>
+            <!-- Test Drive Image -->
+            <h3>Test Drive today!</h3>
+            <p class="test_drive_p">Click on the image below to learn more.</p>
+            <a href="test-drive.html">
+                <div class="test_drive_images">
+                    <img src="images/main_page/test_drive/Test_drive.png" alt="Test Drive" class="adjust_test_drive_images">
+                </div>
+            </a>
+        </article>
             
         <!-- Bottom part -->
         <footer>
@@ -71,6 +73,7 @@ Description: DBI211 Assignment 2 Group Project. We sell cars here.
             <!-- Disclaimer -->
             <article class="Disclaimer">
                 <p>Disclaimer: This website is created for education and non-commercial use only. It is an assignment for completion of unit, DBI211 Fundamentals of Web Technology based on the Foundation (IT/Multimedia) course from Swinburne University of Technology Sarawak Campus.</p>
+                <p>&copy; <a href="about.html" class="footer_link">THE BALLER CLUB (Group 10)</a> | Last updated : 29/05/2026</p>
             </article>
         </footer>
         

@@ -1,5 +1,5 @@
 // Variables.
-let images = ["images/main_page/Porsche_911.png", "images/main_page/Toyota_hilux.jpg"];
+let images = ["images/main_page/Porsche_911.png", "images/main_page/Toyota_hilux.jpg", "images/main_page/BMW_X5.jpg"];
 let numberOfImages = images.length;
 let i = 0;
 
